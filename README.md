@@ -14,11 +14,14 @@ CBAM showed higher confidence on some samples in the web app,
 but lower overall mAP.
 
 ## Dataset
-- 1,736 images, 2 classes: downey mildew and black rot with 1 healthy class 
-- Preprocessing: cleaning, resizing, orientation standardization
-- Source: primary data and public dataset from Mendeley data
+-1,736 images in total: leaf photos I collected myself on campus,
+  combined with public datasets from Mendeley Data
   ([dataset 1](https://data.mendeley.com/datasets/wkymf8bhcg/5),
   [dataset 2](https://data.mendeley.com/datasets/378c69nwk5/1))
+- Own photos: 35 images; public data: 676 images
+- Classes: downy mildew, black rot and healthy
+- Preprocessing: cleaning, resizing, orientation standardization
+- Annotation : used Roboflow
 
 ## Tech
 Python, PyTorch (Ultralytics YOLOv12), CBAM, Streamlit
@@ -28,7 +31,7 @@ Open the training notebook in Google Colab or Jupyter
 and run the cells in order.
 
 ## Demo
-![detection example] (demo.png)
+![detection example](demo.png)
 
 ## Web App Repo
 https://github.com/Zaharaaz/Deteksi-penyakit-daun-anggur
