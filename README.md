@@ -16,17 +16,22 @@ but lower overall mAP.
 ## Dataset
 - 1,736 images, 2 classes: downey mildew and black rot with 1 healthy class 
 - Preprocessing: cleaning, resizing, orientation standardization
-- Source: primary data, https://data.mendeley.com/datasets/wkymf8bhcg/5, https://data.mendeley.com/datasets/378c69nwk5/1
+- Source: primary data and public dataset from Mendeley data
+  ([dataset 1](https://data.mendeley.com/datasets/wkymf8bhcg/5),
+  [dataset 2](https://data.mendeley.com/datasets/378c69nwk5/1))
 
 ## Tech
 Python, PyTorch (Ultralytics YOLOv12), CBAM, Streamlit
 
 ## How to run
-pip install -r requirements.txt
-streamlit run app.py
+Open the training notebook in Google Colab or Jupyter
+and run the cells in order.
 
 ## Demo
-demo.png
+![detection example] (demo.png)
+
+## Web App Repo
+
 
 ## Notes
 CBAM likely underperformed because small dataset
