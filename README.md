@@ -26,7 +26,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Demo
-![detection example](images/result.png)
+demo.png
 
 ## Notes
 CBAM likely underperformed because small dataset
